@@ -1,0 +1,6 @@
+version: '3'
+services:
+  thumbnails:
+    build: ./build
+    container_name: thumbnails
+    user: "${UID_GID}"
